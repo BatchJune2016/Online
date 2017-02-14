@@ -1,0 +1,3 @@
+com\aartek\controller\LoginController.class
+com\aartek\validator\Registration_validator.class
+com\aartek\controller\RegistrationController.class

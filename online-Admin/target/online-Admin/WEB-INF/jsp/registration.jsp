@@ -1,0 +1,145 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<html>
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/own.css" rel="stylesheet">
+<style>
+.textbox {
+	width: 30% !important;
+}
+
+.error {
+	color: red;
+}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Registration Page</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"></div>
+			<div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
+
+				<h1 style="margin-left: 5%;">Registration Page</h1>
+				<form:form action="registration.do" method="POST"
+					modelAttribute="Registration">
+					<form class="form-horizontal" style="margin-top: 5%;">
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">First
+								Name:</label>
+							<div class="col-sm-10">
+								<form:errors path="first_name" class="error"></form:errors>
+								<form:input path="first_name" class="form-control textbox"
+									placeholder="First Name" />
+								<br>
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Last
+								Name:</label>
+							<div class="col-sm-10">
+								<form:input path="last_name" class="form-control textbox"
+									placeholder="Last Name" />
+								<br>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">D.O.B.:</label>
+							<div class="col-sm-10">
+								<form:input path="dob" class="form-control textbox" type="date"
+									placeholder="D.O.B" />
+								<br>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Mobile
+								No:</label>
+							<div class="col-sm-10">
+								<form:input path="mobile_no" class="form-control textbox"
+									placeholder="Mobile Number" />
+								<br>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Email
+								ID:</label>
+							<div class="col-sm-10">
+								<form:input path="email_id" class="form-control textbox"
+									placeholder="Email ID" />
+								<br>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Admin
+								ID:</label>
+							<div class="col-sm-10">
+								<form:input path="admin_id" class="form-control textbox"
+									placeholder="Admin ID" />
+								<br>
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Password:</label>
+							<div class="col-sm-10">
+								<form:password path="password" class="form-control textbox"
+									placeholder="Password" />
+								<br>
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Confirm
+								Password:</label>
+							<div class="col-sm-10">
+								<form:password path="confirm_password"
+									class="form-control textbox" placeholder="Re-enter Password" />
+								<br>
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label text-muted">Photo:</label>
+							<div class="col-sm-10">
+								<form:input path="pics" class="form-control textbox"
+									accept="image/*" type="file" />
+								<br>
+							</div>
+						</div>
+
+
+
+
+						<div class="form-group">
+							<label class="col-sm-2 control-label"></label>
+							<div class="col-sm-10">
+								<button type="button" class="btn btn-primary button_submit ">Submit</button>
+							</div>
+						</div>
+
+
+					</form>
+				</form:form>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
