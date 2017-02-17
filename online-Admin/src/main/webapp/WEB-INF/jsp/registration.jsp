@@ -12,14 +12,14 @@
 .textbox {
 	width: 30% !important;
 }
- 
+
 .error {
 	color: red;
 }
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Page welcome my user</title> 
+<title>Registration Page aditya dubey </title>
 </head>
 <body>
 	<div class="container-fluid">
@@ -49,7 +49,7 @@
 							<div class="col-sm-10">
 								<form:input path="last_name" class="form-control textbox"
 									placeholder="Last Name" />
-									<form:errors path="last_name" class="error"></form:errors>
+								<form:errors path="last_name" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -59,7 +59,7 @@
 							<div class="col-sm-10">
 								<form:input path="dob" class="form-control textbox" type="date"
 									placeholder="D.O.B" />
-									<form:errors path="dob" class="error"></form:errors>
+								<form:errors path="dob" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -70,7 +70,7 @@
 							<div class="col-sm-10">
 								<form:input path="mobile_no" class="form-control textbox"
 									placeholder="Mobile Number" />
-									<form:errors path="mobile_no" class="error"></form:errors>
+								<form:errors path="mobile_no" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -81,7 +81,7 @@
 							<div class="col-sm-10">
 								<form:input path="email_id" class="form-control textbox"
 									placeholder="Email ID" />
-									<form:errors path="email_id" class="error"></form:errors>
+								<form:errors path="email_id" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -92,7 +92,7 @@
 							<div class="col-sm-10">
 								<form:input path="admin_id" class="form-control textbox"
 									placeholder="Admin ID" />
-									<form:errors path="admin_id" class="error"></form:errors>
+								<form:errors path="admin_id" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -103,7 +103,7 @@
 							<div class="col-sm-10">
 								<form:password path="password" class="form-control textbox"
 									placeholder="Password" />
-									<form:errors path="password" class="error"></form:errors>
+								<form:errors path="password" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -115,7 +115,7 @@
 							<div class="col-sm-10">
 								<form:password path="confirm_password"
 									class="form-control textbox" placeholder="Re-enter Password" />
-									<form:errors path="confirm_password" class="error"></form:errors>
+								<form:errors path="confirm_password" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
@@ -126,7 +126,7 @@
 							<div class="col-sm-10">
 								<form:input path="pics" class="form-control textbox"
 									accept="image/*" type="file" />
-									<form:errors path="pics" class="error"></form:errors>
+								<form:errors path="pics" class="error"></form:errors>
 								<br>
 							</div>
 						</div>
