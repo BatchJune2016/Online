@@ -19,7 +19,7 @@
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Page Arun before stasch</title>
+<title>Registration Page</title> 
 </head>
 <body>
 	<div class="container-fluid">
