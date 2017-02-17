@@ -19,7 +19,7 @@
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Page</title> 
+<title>Registration Page welcome my user</title> 
 </head>
 <body>
 	<div class="container-fluid">
